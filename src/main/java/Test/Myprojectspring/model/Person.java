@@ -14,6 +14,7 @@ public class Person {
 
     private String name;
     private int age;
+    private String email;
 
     // Getters et Setters
     public Long getId() {
@@ -38,5 +39,13 @@ public class Person {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public String getEmail(){
+        return email;
+    }
+
+    public void setEmail(String email){
+        this.email = email;
     }
 }
